@@ -43,6 +43,67 @@ export default function App() {
         </div>
 
       </section>
+            {/* SKILLS SECTION */}
+      <section className="py-24 px-6 bg-gray-900">
+
+        <div className="max-w-6xl mx-auto">
+
+          <h2 className="text-4xl font-bold mb-12 text-center">
+            Skills & Technologies
+          </h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <div className="bg-gray-800 p-6 rounded-2xl">
+              <h3 className="text-xl font-semibold mb-4 text-blue-400">
+                Networking
+              </h3>
+
+              <ul className="space-y-2 text-gray-300">
+                <li>TCP/IP</li>
+                <li>Routing & Switching</li>
+                <li>VPN IPsec</li>
+                <li>VLAN</li>
+                <li>NAT & ACL</li>
+                <li>QoS</li>
+              </ul>
+            </div>
+
+            <div className="bg-gray-800 p-6 rounded-2xl">
+              <h3 className="text-xl font-semibold mb-4 text-blue-400">
+                Telecommunications & RF
+              </h3>
+
+              <ul className="space-y-2 text-gray-300">
+                <li>RTTY Communication</li>
+                <li>FSK Modulation</li>
+                <li>Access Network</li>
+                <li>RF Coverage Analysis</li>
+                <li>Signal Processing</li>
+                <li>Radio Communication</li>
+              </ul>
+            </div>
+
+            <div className="bg-gray-800 p-6 rounded-2xl">
+              <h3 className="text-xl font-semibold mb-4 text-blue-400">
+                Programming & Tools
+              </h3>
+
+              <ul className="space-y-2 text-gray-300">
+                <li>C Programming</li>
+                <li>Linux</li>
+                <li>Raspberry Pi</li>
+                <li>Git & GitHub</li>
+                <li>Wireshark</li>
+                <li>VS Code</li>
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
 
     </div>
   );
