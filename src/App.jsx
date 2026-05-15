@@ -1,9 +1,55 @@
 export default function App() {
   return (
     <div className="min-h-screen bg-gray-950 text-white">
+            {/* NAVBAR */}
+      <nav className="fixed top-0 left-0 w-full bg-gray-950/80 backdrop-blur-md z-50 border-b border-gray-800">
+
+        <div className="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
+
+          <h1 className="text-xl font-bold text-blue-400">
+            Rizqa A.A
+          </h1>
+
+          <div className="flex gap-6 text-sm md:text-base">
+
+            <a
+              href="#about"
+              className="hover:text-blue-400 transition"
+            >
+              About
+            </a>
+
+            <a
+              href="#skills"
+              className="hover:text-blue-400 transition"
+            >
+              Skills
+            </a>
+
+            <a
+              href="#projects"
+              className="hover:text-blue-400 transition"
+            >
+              Projects
+            </a>
+
+            <a
+              href="https://github.com/rezzqonk"
+              target="_blank"
+              className="hover:text-blue-400 transition"
+            >
+              GitHub
+            </a>
+
+          </div>
+
+        </div>
+
+      </nav>
+
 
       {/* HERO SECTION */}
-      <section className="flex flex-col items-center justify-center text-center px-6 h-screen">
+      <section id="hero" className="flex flex-col items-center justify-center text-center px-6 h-screen pt-20">
 
         <p className="text-blue-400 mb-3 tracking-widest">
           HELLO, I'M
@@ -34,17 +80,49 @@ export default function App() {
             GitHub
           </a>
 
-          <button
-            className="px-6 py-3 border border-gray-600 rounded-xl hover:bg-gray-800 transition"
-          >
-            View Projects
-          </button>
+        <a href="#projects"
+          className="px-6 py-3 border border-gray-600 rounded-xl hover:bg-gray-800 transition"
+        >
+          View Projects
+        </a>
 
         </div>
 
       </section>
+
+    {/* ABOUT ME SECTION */}
+    <section id="about" className="py-24 px-6 bg-gray-950">
+      <div className="max-w-5xl mx-auto">
+        <h2 className="text-4xl font-bold mb-10 text-center">
+          About Me
+        </h2>
+
+        <div className="bg-gray-900 rounded-2xl p-8 md:p-12">
+          <p className="text-gray-300 leading-relaxed text-lg mb-6">
+             I am a Telecommunications Engineering student at
+              Politeknik Elektronika Negeri Surabaya (PENS)
+              with strong interests in networking, RF systems,
+              telecommunications infrastructure, and embedded communication technologies.
+          </p>
+
+          <p className="text-gray-300 leading-relaxed text-lg mb-6">
+            I have hands-on experience in network analysis,
+            IoT commissioning, Linux networking, socket programming,
+            VPN configuration, and radio communication projects using Raspberry Pi and ALSA.
+          </p>
+
+         <p className="text-gray-300 leading-relaxed text-lg">
+            Passionate about building reliable communication systems
+            and continuously learning technologies related to ICT,
+            network engineering, and cybersecurity.
+          </p>
+
+        </div>
+      </div>
+    </section>
+    
             {/* SKILLS SECTION */}
-      <section className="py-24 px-6 bg-gray-900">
+      <section id="skills" className="py-24 px-6 bg-gray-900">
 
         <div className="max-w-6xl mx-auto">
 
@@ -104,8 +182,9 @@ export default function App() {
         </div>
 
       </section>
+
             {/* PROJECTS SECTION */}
-      <section className="py-24 px-6 bg-gray-950">
+      <section id="projects" className="py-24 px-6 bg-gray-950">
 
         <div className="max-w-6xl mx-auto">
 
