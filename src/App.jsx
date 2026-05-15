@@ -32,14 +32,13 @@ export default function App() {
             >
               Projects
             </a>
-
+            
             <a
-              href="https://github.com/rezzqonk"
-              target="_blank"
-              className="hover:text-blue-400 transition"
+              href="#experience"
+             className="hover:text-blue-400 transition"
             >
-              GitHub
-            </a>
+  Experience
+</a>
 
           </div>
 
@@ -283,6 +282,107 @@ export default function App() {
               >
                 Internship Experience
               </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+            {/* EXPERIENCE SECTION */}
+      <section id="experience" className="py-24 px-6 bg-gray-950">
+
+        <div className="max-w-5xl mx-auto">
+
+          <h2 className="text-4xl font-bold mb-12 text-center">
+            Experience
+          </h2>
+
+          <div className="space-y-8">
+
+            {/* EXPERIENCE 1 */}
+            <div className="bg-gray-900 rounded-2xl p-8 border border-gray-800">
+
+              <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+
+                <div>
+                  <h3 className="text-2xl font-semibold text-blue-400">
+                    Network Analyst Intern
+                  </h3>
+
+                  <p className="text-gray-300">
+                    PT Nayaka Pratama
+                  </p>
+                </div>
+
+                <p className="text-gray-400 mt-2 md:mt-0">
+                  Nov 2025 – May 2026
+                </p>
+
+              </div>
+
+              <ul className="list-disc list-inside text-gray-300 space-y-2 leading-relaxed">
+
+                <li>
+                  Configured and troubleshot Teltonika routers including VPN,
+                  NAT, routing, and firewall systems.
+                </li>
+
+                <li>
+                  Conducted commissioning and connectivity testing
+                  for deployed IoT infrastructure devices.
+                </li>
+
+                <li>
+                  Monitored network performance and device availability
+                  within operational environments.
+                </li>
+
+              </ul>
+
+            </div>
+
+            {/* EXPERIENCE 2 */}
+            <div className="bg-gray-900 rounded-2xl p-8 border border-gray-800">
+
+              <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+
+                <div>
+                  <h3 className="text-2xl font-semibold text-blue-400">
+                    SCALE 2024 Programme Participant
+                  </h3>
+
+                  <p className="text-gray-300">
+                    Temasek Foundation • ITE College West • PENS
+                  </p>
+                </div>
+
+                <p className="text-gray-400 mt-2 md:mt-0">
+                  2024
+                </p>
+
+              </div>
+
+              <ul className="list-disc list-inside text-gray-300 space-y-2 leading-relaxed">
+
+                <li>
+                  Participated in cross-cultural leadership and technical collaboration programs
+                  in Indonesia and Singapore.
+                </li>
+
+                <li>
+                  Worked with multinational student teams
+                  in community and technology-related activities.
+                </li>
+
+                <li>
+                  Developed communication, teamwork,
+                  and leadership skills through ASEAN collaboration.
+                </li>
+
+              </ul>
 
             </div>
 
